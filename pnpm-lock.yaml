@@ -1273,8 +1273,13 @@ packages:
       once: 1.4.0
     dev: false
 
+<<<<<<< HEAD
   /punycode/2.2.2:
     resolution: {integrity: sha512-vKAcKbHEGA3cKbkNWwsA9MjHgIg4/X/xO/PnVQ/Pxt5eNC8/F726fGNlUlwwPej7NkmTg9OBWP4ovYvtdPtmXw==}
+=======
+  /punycode/2.2.0:
+    resolution: {integrity: sha512-LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==}
+>>>>>>> 38d2fe37db0709324e343cd504e740492103500a
     engines: {node: '>=6'}
     dev: false
     optional: true
@@ -1629,7 +1634,11 @@ packages:
     engines: {node: '>=0.8'}
     dependencies:
       psl: 1.9.0
+<<<<<<< HEAD
       punycode: 2.2.2
+=======
+      punycode: 2.2.0
+>>>>>>> 38d2fe37db0709324e343cd504e740492103500a
     dev: false
     optional: true
 
@@ -1702,7 +1711,11 @@ packages:
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
+<<<<<<< HEAD
       punycode: 2.2.2
+=======
+      punycode: 2.2.0
+>>>>>>> 38d2fe37db0709324e343cd504e740492103500a
     dev: false
     optional: true
 

@@ -80,6 +80,7 @@ app.post("/movies/", async (request, response) => {
   const movieId = dbResult.lastID;
   response.send("Movie Successfully Added");
 });
+<<<<<<< HEAD
 
 //creating an API for updating the details of the movie in movie table database
 app.put("/movies/:movieId/", async (request, response) => {
@@ -136,3 +137,5 @@ app.get("/directors/:directorId/movies/", async (request, response) => {
 });
 
 module.exports = app;
+=======
+>>>>>>> 38d2fe37db0709324e343cd504e740492103500a

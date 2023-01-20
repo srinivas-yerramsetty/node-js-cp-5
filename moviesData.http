@@ -1,5 +1,6 @@
 GET http://localhost:3000/movies/
 ###
+<<<<<<< HEAD
 
 GET http://localhost:3000/movies/47/
 ###
@@ -31,3 +32,14 @@ GET http://localhost:3000/directors/
 ###
 
 GET http://localhost:3000/directors/8/movies/
+=======
+GET http://localhost:3000/movies/46/
+###
+POST http://localhost:3000/movies/
+
+{
+    "directorId":47,
+    "movieName": "Jurassic Park",
+    "leadActor": "Jeff Goldblum"
+}
+>>>>>>> 38d2fe37db0709324e343cd504e740492103500a
